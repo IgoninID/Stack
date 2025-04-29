@@ -49,14 +49,14 @@ void test()
 	assert(stack1.peek() == 0); // элемент на дне стека
 
 	stack2.pop(); // удаление из пустого стека (ничего не сделает)
-	assert(stack1.getSize() == 0); // получение размера стека
-	assert(stack1.isEmpty() == 1); // пустой ли стек
+	assert(stack2.getSize() == 0); // получение размера стека
+	assert(stack2.isEmpty() == 1); // пустой ли стек
 
 	//тест очистки стека
 	stack1.clear(); // стек с 1 элементом
 	assert(stack1.getSize() == 0); // получение размера стека
 	assert(stack1.isEmpty() == 1); // пустой ли стек
 	stack2.clear(); //пустой стек
-	assert(stack1.getSize() == 0); // получение размера стека
-	assert(stack1.isEmpty() == 1); // пустой ли стек
+	assert(stack2.getSize() == 0); // получение размера стека
+	assert(stack2.isEmpty() == 1); // пустой ли стек
 }

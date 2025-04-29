@@ -4,7 +4,7 @@
 #include "C:\Users\vovai\OneDrive\Рабочий стол\Arrays\TemplList\TList.h"
 
 /// <summary>
-/// 
+/// Шаблонный класс стек
 /// </summary>
 /// <typeparam name="T"></typeparam>
 template <typename T>
